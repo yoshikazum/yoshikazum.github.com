@@ -3,5 +3,5 @@
 this is yoshikazum.github.com<br/>
 
 <a href='javascript:void(function(){date = window. confirm("本日の勤怠連絡ですか？\nいいえ：「キャンセル」\nはい：「OK」");if(!date){date = window.prompt("日付を入力してください", "○月○日");date = date=="○月○日"? null: date;date = date? date:"";}else{date = "";}user = window.prompt("氏名を入力してください", "勤怠太郎");if(user==null)return;group = window.prompt("所属を入力してください", "アプリケーションG");if(group==null)return;kubun = window.prompt("勤怠区分を入力してください", "遅刻、欠勤、午前半休、午後半休");if(kubun==null)return;riyu = window.prompt("勤怠理由を入力してください。入力後Gmailへ遷移します。", "電車遅延、通院、私用");if(riyu==null)return;gmail = "https://mail.google.com/mail/?view=cm&tf=1&fs=1&to=kintai@gloops.com&su="+encodeURI("【勤怠連絡】"+date+ " " + group+ " "+ user)+"&body="+encodeURI("お疲れさまです。"+group+ " " + user+ "です。\n\n勤怠連絡させていただきます。\n\n①区分:"+kubun+"\n②理由:"+riyu+"\n\n申し訳ありませんが、よろしくお願いいたします。");location.href=gmail;})()'>N
-Kintai
+勤怠連絡
 </a>
